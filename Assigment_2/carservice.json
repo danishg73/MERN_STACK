@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "60325277c4ced459f61e02f3"
+  },
+  "Customer_id": "1",
+  "firstname": "Danish",
+  "lastname": "Yahya",
+  "email": "danishg73@gmail.com",
+  "city": "Rawalpindi",
+  "array_name": "customer",
+  "Booking": {
+    "\"$oid\"": "603256f1c4ced459f61e02f8"
+  },
+  "car": {
+    "\"$oid\"": "60325470c4ced459f61e02f6"
+  }
+},{
+  "_id": {
+    "$oid": "60325470c4ced459f61e02f6"
+  },
+  "array_name": "car",
+  "license_number": "123",
+  "mileage": "8889",
+  "engine_size": "700cc",
+  "booking": {
+    "\"$oid": "603256f1c4ced459f61e02f8"
+  }
+},{
+  "_id": {
+    "$oid": "6032556d1b588214a055af24"
+  },
+  "array_name": "manufacturer",
+  "manifacture_code": "1",
+  "manufacture_name": "suzuki",
+  "model1": {
+    "model_code": "su1",
+    "dailyhire": "15%",
+    "model_name": "Mehran",
+    "car": {
+      "\"$oid\"": "60325470c4ced459f61e02f6"
+    }
+  },
+  "model2": {
+    "model_code": "su2",
+    "dailyhire": "15%",
+    "model_name": "Bolan",
+    "car": {
+      "\"$iod\"": "60325470c4ced459f61e02f6"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603256b5c4ced459f61e02f7"
+  },
+  "array_name": "Mechanic",
+  "Mechanic_name": "Osama",
+  "Mechanic_details": "All Rounder",
+  "booking": {
+    "\"$oid\"": "603256f1c4ced459f61e02f8"
+  }
+},{
+  "_id": {
+    "$oid": "603256f1c4ced459f61e02f8"
+  },
+  "array_name": "Booking",
+  "Booking_id": "1",
+  "timestamp": "12:00:00 12/02/2021",
+  "payment_recieved": true,
+  "Mechanic": {
+    "\"$oid\"": "603256b5c4ced459f61e02f7"
+  }
+}]
